@@ -1,0 +1,164 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AzryaStatBlock",
+				"abbreviation": "RCo",
+				"full": "Raven's Collection",
+				"url": "",
+				"authors": [
+					"Raven (ravencassius/SovereignRaven)"
+				],
+				"convertedBy": [
+					"Raven (ravencassius/SovereignRaven)"
+				],
+				"color": "#ff6666"
+			}
+		]
+	},
+	"monster": [
+		{
+			"uniqueId": "ec724ab6-ad3c-4223-a0b4-a8911d380a28",
+			"name": "Az'rya",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"devil"
+				]
+			},
+			"source": "AzryaStatBlock",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				15,
+				{
+					"ac": 20,
+					"condition": "(with {@item robe of the archmagi})"
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 32",
+				"average": 68
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 20,
+			"con": 18,
+			"int": 16,
+			"wis": 16,
+			"cha": 20,
+			"passive": 21,
+			"skill": {
+				"intimidation": "+9",
+				"investigation": "+7",
+				"perception": "+11",
+				"athletics": "+10"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Infernal",
+				"Common"
+			],
+			"languageTags": [
+				"I",
+				"C"
+			],
+			"actionHeader": [],
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Devil's Sight",
+					"entries": [
+						"Magical darkness doesn't impede Az'rya's darkvision."
+					]
+				}
+			],
+			"traitTags": [
+				"Devil's Sight"
+			],
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"Az'rya makes two attacks or short bursts with {@i Maelstrom}."
+					]
+				},
+				{
+					"name": "Maelstrom",
+					"entries": [
+						"{@atk rw} {@hit 12} to hit, range 70/210 ft., one target. {@h}15 ({@damage 2d6 + 8}) piercing damage, or {@h}22 ({@damage 4d6 + 8}) piercing damage when making a short burst, which uses three pieces of ammunition."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			],
+			"resist": [
+				"cold"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Az'rya is a 20th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 20}, {@hit +12} to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell feeblemind}",
+							"{@spell foresight}"
+						]
+					},
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell eldritch blast}"
+							]
+						},
+						"5": {
+							"spells": [
+								"{@spell find vehicle (ua)|UAModernMagic}",
+								"{@spell hex}",
+								"{@spell synchronicity (ua)|UAModernMagic}"
+							],
+							"slots": 4,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CL"
+			],
+			"pbNote": "+4",
+			"save": {
+				"dex": "+9",
+				"cha": "+9",
+				"int": "+7"
+			},
+			"damageTags": [
+				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"Y"
+			],
+			"savingThrowForcedSpell": [
+				"intelligence"
+			]
+		}
+	]
+}
