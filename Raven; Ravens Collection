@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "AzryaStatBlock",
+				"json": "RavensCollection",
 				"abbreviation": "RCo",
 				"full": "Raven's Collection",
 				"url": "",
@@ -29,7 +29,7 @@
 					"devil"
 				]
 			},
-			"source": "AzryaStatBlock",
+			"source": "RavensCollection",
 			"alignment": [
 				"C"
 			],
