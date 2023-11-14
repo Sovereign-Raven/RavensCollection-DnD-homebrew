@@ -5,21 +5,21 @@
 				"json": "RavensCollection",
 				"abbreviation": "RCo",
 				"full": "Raven's Collection",
-				"url": "",
 				"authors": [
 					"Raven (ravencassius/SovereignRaven)"
 				],
 				"convertedBy": [
 					"Raven (ravencassius/SovereignRaven)"
 				],
-				"color": "#ff6666",
-				"targetSchema": "1.0"
+				"color": "ff6666",
+				"version": "1"
 			}
-		]
+		],
+		"dateAdded": 1699884000,
+		"dateLastModified": 1699970400
 	},
 	"monster": [
 		{
-			"uniqueId": "ec724ab6-ad3c-4223-a0b4-a8911d380a28",
 			"name": "Az'rya",
 			"size": [
 				"M"
@@ -75,7 +75,6 @@
 				"I",
 				"C"
 			],
-			"actionHeader": [],
 			"isNamedCreature": true,
 			"trait": [
 				{
