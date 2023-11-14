@@ -4,7 +4,7 @@
 			{
 				"json": "RavensCollection",
 				"abbreviation": "RCo",
-				"full": "Raven's Collection",
+				"full": "Ravens Collection",
 				"authors": [
 					"Raven (ravencassius/SovereignRaven)"
 				],
@@ -157,6 +157,20 @@
 			],
 			"savingThrowForcedSpell": [
 				"intelligence"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Ear Cuff of Eminence",
+			"source": "Ravens Collection",
+			"tier": "major",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"A glistening fire opal, surrounded by white gold filigree set with pearlescent shards of abalone, this piece of jewellery can be set onto the ear.",
+				"While you are wearing no armor, you can add your Charisma bonus to your Armor Class and you have advantage on saving throws against spell and other magical effects."
 			]
 		}
 	]
