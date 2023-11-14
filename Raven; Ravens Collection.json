@@ -8,11 +8,10 @@
 				"authors": [
 					"Raven (ravencassius/SovereignRaven)"
 				],
-				"convertedBy": [
-					"Raven (ravencassius/SovereignRaven)"
-				],
 				"color": "ff6666",
-				"version": "1"
+				"version": "1.0",
+				"targetSchema": "1.0",
+				"url": "https://github.com/Sovereign-Raven/RavensCollection-DnD-homebrew"
 			}
 		],
 		"dateAdded": 1699884000,
