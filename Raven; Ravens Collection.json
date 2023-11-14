@@ -12,7 +12,8 @@
 				"convertedBy": [
 					"Raven (ravencassius/SovereignRaven)"
 				],
-				"color": "#ff6666"
+				"color": "#ff6666",
+				"targetSchema": "1.0"
 			}
 		]
 	},
