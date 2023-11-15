@@ -171,6 +171,29 @@
 				"A glistening fire opal, surrounded by white gold filigree set with pearlescent shards of abalone, this piece of jewellery can be set onto the ear.",
 				"While you are wearing no armor, you can add your Charisma bonus to your Armor Class and you have advantage on saving throws against spell and other magical effects."
 			]
+		},
+		{
+			"name": "Orc Thrower",
+			"source": "Ravens Collection",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"baseItem": "battleaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+3",
+			"entries": [
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon or of the target is {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage. Immediately after a thrown attack, the weapon flies back to your hand."
+			]
 		}
 	]
 }
