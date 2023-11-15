@@ -37,7 +37,7 @@
 				15,
 				{
 					"ac": 20,
-					"condition": "(with {@item robe of the archmagi})"
+					"condition": "(with {@item Ear Cuff of Eminence|RavensCollection})"
 				}
 			],
 			"hp": {
@@ -80,6 +80,12 @@
 					"name": "Devil's Sight",
 					"entries": [
 						"Magical darkness doesn't impede Az'rya's darkvision."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Az'rya wears {@item Ear Cuff of Eminence|RavensCollection} and wields {@item Maelstrom}."
 					]
 				}
 			],
