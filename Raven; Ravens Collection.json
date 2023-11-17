@@ -223,7 +223,6 @@
 			"dmg1": "2d6",
 			"dmgType": "P",
 			"firearm": true,
-			"weapon": true,
 			"ammoType": "modern bullet",
 			"bonusWeapon": "+3",
 			"bonusSpellAttack": "+3",
@@ -233,7 +232,9 @@
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It never requires new ammunition. It is impossible to remove the magazine or retrieve cartridges in any way.",
 				"If you have a way to use a submachine gun as your spellfocus, like the Improved Pact Weapon eldritch invocation, you gain a +3 bonus to spell attack rolls and the saving throws while holding {@i Maelstrom}."
 			]
-		},
+		}
+	],
+	"baseitem": [
 		{
 			"name": "Submachine Gun",
 			"source": "RavensCollection",
