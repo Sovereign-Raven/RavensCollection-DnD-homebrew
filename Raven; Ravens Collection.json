@@ -202,6 +202,30 @@
 			]
 		},
 		{
+			"name": "Maelstrom",
+			"source": "RavensCollection",
+			"rarity": "legendary",
+			"reqAttune": "yes",
+			"baseItem": "submachine gun|RavensCollection",
+			"type": "R",
+			"tier": "major",
+			"weight": 5,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"SB",
+				"RLD",
+				"2H"
+			],
+			"range": "70/210",
+			"reload": 40,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet"
+		},
+		{
 			"name": "Submachine Gun",
 			"source": "RavensCollection",
 			"type": "R",
