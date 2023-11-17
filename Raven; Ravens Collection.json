@@ -211,8 +211,9 @@
 			"age": "modern",
 			"property": [
 				"AF",
+				"SB",
 				"RLD",
-				"SB"
+				"2H"
 			],
 			"range": "70/210",
 			"reload": 40,
