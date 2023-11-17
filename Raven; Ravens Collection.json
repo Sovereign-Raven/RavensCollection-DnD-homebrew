@@ -200,6 +200,28 @@
 			"entries": [
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon or if the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage. Immediately after a thrown attack, the weapon flies back to your hand."
 			]
+		},
+		{
+			"name": "Submachine Gun",
+			"source": "RavensCollection",
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"weaponCategory": "martial",
+			"age": "modern",
+			"property": [
+				"AF",
+				"RLD",
+				"SB"
+			],
+			"range": "70/210",
+			"reload": 40,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "modern bullet",
+			"entries": []
 		}
 	],
 	"itemProperty": [
