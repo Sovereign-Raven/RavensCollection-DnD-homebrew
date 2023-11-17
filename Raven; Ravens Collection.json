@@ -211,6 +211,7 @@
 			"tier": "major",
 			"weight": 5,
 			"weaponCategory": "martial",
+			"age": "modern",
 			"property": [
 				"AF",
 				"SB",
@@ -223,7 +224,14 @@
 			"dmgType": "P",
 			"firearm": true,
 			"weapon": true,
-			"ammoType": "modern bullet"
+			"ammoType": "modern bullet",
+			"bonusWeapon": "+3",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"entries": [
+				"{@i Maelstrom} is a submachine gun of demonic origin. Its black metal surface is engraved with electrum forming letters of the Infernal script and decorative patterns.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon, and you gain a +3 bonus to spell attack rolls and the saving throws. It never requires new ammunition. It is impossible to remove the magazine or retrieve cartridges in any way."
+			]
 		},
 		{
 			"name": "Submachine Gun",
