@@ -164,6 +164,174 @@
 			"savingThrowForcedSpell": [
 				"intelligence"
 			]
+		},
+		{
+			"name": "Stor",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-orc"
+				]
+			},
+			"source": "RavensCollection",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"{@item +3 plate armor}",
+						"Defense fighting style"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 50",
+				"average": 95
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 20,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"passive": 13,
+			"skill": {
+				"perception": "+6",
+				"athletics": "+11",
+				"intimidation": "+9"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"actionHeader": [],
+			"isNamedCreature": true,
+			"traitTags": [
+				"Aggressive",
+				"Brute",
+				"Devil's Sight"
+			],
+			"save": {
+				"con": "+11",
+				"str": "+11"
+			},
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, Stor can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when Stor hits with it."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"Stor has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Battle Master Maneuvers",
+					"entries": [
+						"-Lvl3:",
+						"--Menacing Attack",
+						"--Trip Attack",
+						"--Commanding Presence",
+						"-Lvl7:",
+						"--Precision Attack",
+						"--Grappling Strike",
+						"-Lvl10:",
+						"--Riposte",
+						"--Feinting Attack",
+						"-Lvl15:",
+						"--Distracting Strike",
+						"--Rally"
+					]
+				},
+				{
+					"name": "Feats",
+					"entries": [
+						":",
+						"Polearm Master",
+						"Sentinel",
+						"Heavy Armor Master",
+						"Skill Expert (Athletics)",
+						"Great Weapon Master?"
+					]
+				},
+				{
+					"name": "Menacing",
+					"entries": [
+						"Stor has proficiency in the Intimidation skill. (half orc race)"
+					]
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit. (half orc race)"
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Stor wields a {@item +3 poleaxe}, wears a {@item +3 plate armor} and carries an {@item Orc Thrower|RavensCollection} on his belt. Further: {@item Belt of Storm Giant Strength}, {@item Rope of Entanglement}, {@item Blood Fury Tattoo|TCE}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Poleaxe",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "{@item Orc Thrower|RavensCollection}",
+					"entries": [
+						"{@atk mw,rw} {@hit 14} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, or 13 ({@damage 1d10 + 8}) slashing damage when used with two hands to make a melee attack. If thrown, it deals an additional 4 ({@damage 1d8}) slashing damage."
+					]
+				},
+				{
+					"name": "Enlarge (Duergar)",
+					"entries": [
+						"For 1 minute, Stor magically increases in size, along with anything it is wearing or carrying. While enlarged, Stor is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If Stor lacks the room to become Large, it attains the maximum size possible in the space available."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"pbNote": "+6",
+			"damageTags": [
+				"S"
+			]
 		}
 	],
 	"item": [
