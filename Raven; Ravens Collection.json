@@ -223,7 +223,6 @@
 				"C",
 				"O"
 			],
-			"actionHeader": [],
 			"isNamedCreature": true,
 			"traitTags": [
 				"Aggressive",
@@ -256,25 +255,46 @@
 				{
 					"name": "Battle Master Maneuvers",
 					"entries": [
-						"-Lvl3:",
-						"--Menacing Attack",
-						"--Trip Attack",
-						"--Commanding Presence",
-						"-Lvl7:",
-						"--Precision Attack",
-						"--Grappling Strike",
-						"-Lvl10:",
-						"--Riposte",
-						"--Feinting Attack",
-						"-Lvl15:",
-						"--Distracting Strike",
-						"--Rally"
+						"",
+						"Lvl3:",
+						{
+							"type": "list",
+							"items": [
+								"Menacing Attack",
+								"Trip Attack",
+								"Commanding Presence"
+							]
+						},
+						"Lvl7:",
+						{
+							"type": "list",
+							"items": [
+								"Precision Attack",
+								"Grappling Strike"
+							]
+						},
+						"Lvl10:",
+						{
+							"type": "list",
+							"items": [
+								"Riposte",
+								"Feinting Attack"
+							]
+						},
+						"Lvl15:",
+						{
+							"type": "list",
+							"items": [
+								"Distracting Strike",
+								"Rally"
+							]
+						}
 					]
 				},
 				{
 					"name": "Feats",
 					"entries": [
-						":",
+						"",
 						"Polearm Master",
 						"Sentinel",
 						"Heavy Armor Master",
