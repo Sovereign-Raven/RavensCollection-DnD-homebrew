@@ -198,6 +198,29 @@
 			"dmg2": "1d10",
 			"bonusWeapon": "+3",
 			"entries": [
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon or if the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage. Immediately after a thrown attack, the weapon flies back to your hand."
+			]
+		},
+		{
+			"name": "Orc Thrower 2",
+			"source": "RavensCollection",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"baseItem": "battleaxe|phb",
+			"type": "M",
+			"tier": "major",
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+3",
+			"entries": [
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a meelee attack using this weapon and the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage.",
 				{
 					"name": "Thrown Weapon",
