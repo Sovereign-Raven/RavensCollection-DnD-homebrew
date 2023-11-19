@@ -198,7 +198,7 @@
 			"dmg2": "1d10",
 			"bonusWeapon": "+3",
 			"entries": [
-				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon or if the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage. Immediately after a thrown attack, the weapon flies back to your hand."
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon or if the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage. Immediately after a thrown attack, the weapon flies back to your hand. If you don't have a hand free, the weapon lands at your feet."
 			]
 		},
 		{
@@ -221,7 +221,7 @@
 			"dmg2": "1d10",
 			"bonusWeapon": "+3",
 			"entries": [
-				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a meelee attack using this weapon and the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit with a melee attack using this weapon and the target is either {@condition grappled}, {@condition restrained}, {@condition paralyzed}, {@condition stunned} or {@condition prone}, it deals an extra {@damage 1d8} damage.",
 				{
 					"name": "Thrown Weapon",
 					"type": "entries",
