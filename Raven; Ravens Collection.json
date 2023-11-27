@@ -325,7 +325,7 @@
 				{
 					"name": "Poleaxe",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d10 + 8}) slashing damage."
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}21 ({@damage 2d12 + 8}) slashing damage."
 					]
 				},
 				{
@@ -489,7 +489,7 @@
 				"R",
 				"2H"
 			],
-			"dmg1": "1d10",
+			"dmg1": "1d12",
 			"dmgType": "S",
 			"polearm": true,
 			"weapon": true
