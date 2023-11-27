@@ -325,19 +325,19 @@
 				{
 					"name": "Poleaxe",
 					"entries": [
-						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}13 ({@damage 1d10 + 8}) slashing damage."
+						"{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d10 + 8}) slashing damage."
 					]
 				},
 				{
 					"name": "{@item Orc Thrower|RavensCollection}",
 					"entries": [
-						"{@atk mw,rw} {@hit 14} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 1d8 + 8}) slashing damage, or 13 ({@damage 1d10 + 8}) slashing damage when used with two hands to make a melee attack. If thrown, it deals an additional 4 ({@damage 1d8}) slashing damage."
+						"{@atk mw,rw} {@hit 14} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}17 ({@damage 2d8 + 8}) slashing damage, or 19 ({@damage 2d10 + 8}) slashing damage when used with two hands to make a melee attack. If thrown, it deals an additional 4 ({@damage 1d8}) slashing damage."
 					]
 				},
 				{
-					"name": "Enlarge (Duergar)",
+					"name": "Enlarge (Recharges after a Short or Long Rest)",
 					"entries": [
-						"For 1 minute, Stor magically increases in size, along with anything it is wearing or carrying. While enlarged, Stor is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If Stor lacks the room to become Large, it attains the maximum size possible in the space available."
+						"For 10 minutes, Stor magically increases in size, along with anything it is wearing or carrying. While enlarged, Stor is Large, {@s doubles its damage dice on Strength-based weapon attacks (included in the attacks),} and makes Strength checks and Strength saving throws with advantage. If Stor lacks the room to become Large, it attains the maximum size possible in the space available."
 					]
 				}
 			],
