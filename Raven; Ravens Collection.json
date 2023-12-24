@@ -509,5 +509,31 @@
 				}
 			]
 		}
+	],
+	"magicvariant": [
+		{
+			"name": "Impossible Sword",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Greatsword"
+				},
+				{
+					"name": "Shortsword"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Impossible ",
+				"source": "RavensCollection",
+				"page": 0,
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": "by a creature with an charisma score of 15 or higher",
+				"entries": [
+					"This sword is invisible. Further, anyone who can't see it, forgets it exists. Anyone has to succeed on a DC 17 perception check to see it. It turns invisible again for someone who's line of sight it leaves, and leaves their memory. Someone who has succeeded on the perception check three times, or decides to make an DC 10 Intelligence check, won't forget it anymore, but it still turns invisible for them. The person attuned to it can always see it and never forgets it.",
+					"Any hit against a target, that can't see the sword deals {@damage 1d6} extra damage of the type of the sword."
+				]
+			}
+		}
 	]
 }
